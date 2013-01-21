@@ -7,7 +7,6 @@ Author: Richard Boys
 Maintainer: Richard Boys <richard.boys@newcastle.ac.uk>
 Description: A nice description
 Depends:
-    smfsb,
     gplots,
     R (>= 2.10.0)
 License: GPL
