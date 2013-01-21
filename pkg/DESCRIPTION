@@ -1,0 +1,27 @@
+Package: mas3321
+Type: Package
+Title: Great title
+Version: 0.1
+Date: 2012-10-10
+Author: Richard Boys
+Maintainer: Richard Boys <richard.boys@newcastle.ac.uk>
+Description: A nice description
+Depends:
+    smfsb,
+    gplots,
+    R (>= 2.10.0)
+License: GPL
+Collate:
+    'distns.R'
+    'fns.R'
+    'gibbs.R'
+    'hdi.R'
+    'mcmc.R'
+    'mh.R'
+    'elicitation.R'
+    'contamination.R'
+    'cavendish.R'
+    'coagulation.R'
+    'malcolm.R'
+    'crickets.R'
+    'hepatitis.R'
