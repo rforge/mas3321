@@ -1,11 +1,11 @@
 Package: mas3321
 Type: Package
-Title: Great title
+Title: Bayes normal linear model and basic MCMC
 Version: 0.1
 Date: 2012-10-10
 Author: Richard Boys
 Maintainer: Richard Boys <richard.boys@newcastle.ac.uk>
-Description: A nice description
+Description: Package contains functions, data and examples of Bayesian analysis of the normal linear model using conjugate priors and the analysis of simple models using non-conjuage priors
 Depends:
     gplots,
     R (>= 2.10.0)
