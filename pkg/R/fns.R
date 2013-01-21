@@ -10,9 +10,6 @@ quadform2d=function(beta1,beta2,b,c){
 
 def.par <- par(no.readonly = TRUE) # save default, for resetting...
 
-library(smfsb)
-#library(gplots)
-
 #' Parameters of the NGa posterior distribution when sampling from a normal population
 #' and using a NGa prior distribution
 #' @param priorpara vector of prior parameters b,c,g,h
