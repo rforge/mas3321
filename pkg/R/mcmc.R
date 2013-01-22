@@ -8,6 +8,7 @@
 #' @param show If TRUE, will display numerical summaries on the R console
 #' @param plot If TRUE, will plot graphical summaries on the default graphics device
 #' @author Taken from Darren Wilkinson's package smfsb
+#' @export mcmcSummary
 #' @examples
 #' posterior=gibbsnorm(N=1000,initial=c(10,0.25),priorparam=c(10,1/100,3,12),n=100,xbar=15,s=4.5)
 #' mcmcSummary(posterior,rows=2,bins=10)
