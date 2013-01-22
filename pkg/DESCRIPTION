@@ -5,7 +5,7 @@ Version: 0.1
 Date: 2012-10-10
 Author: Richard Boys
 Maintainer: Richard Boys <richard.boys@newcastle.ac.uk>
-Description: Package contains functions, data and examples of a Bayesiann
+Description: Package contains functions, data and examples of a Bayesian
     analysis of the normal linear model using conjugate priors and the analysis
     of simple models using non-conjugate priors
 Depends:
