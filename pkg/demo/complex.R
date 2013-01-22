@@ -31,6 +31,9 @@ mcmcCi(posterior2)
 mcmcBoxplot(posterior2[,4:13])
 
 # Fig 5.5
+heatmap.2(cor(posterior2),symm=TRUE, margins=c(6,6),Colv = NA,Rowv = NA,dendrogram = "none",symbreaks=TRUE,trace="none",col=grey(seq(0,1,0.01)))
+
+# colour version
 heatmap.2(cor(posterior2),symm=TRUE, margins=c(6,6),Colv = NA,Rowv = NA,dendrogram = "none",symbreaks=TRUE,trace="none")
 
 # timing
