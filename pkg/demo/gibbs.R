@@ -1,6 +1,6 @@
 # analyses using a Gibbs sampler
 
-posterior=gibbsnorm(N=11000,initial=c(10,0.25),b=10,c=1/100,g=3,h=12,n=100,xbar=15,s=4.5)
+posterior=gibbsNormal(N=11000,initial=c(10,0.25),b=10,c=1/100,g=3,h=12,n=100,xbar=15,s=4.5)
 posterior2=mcmcProcess(input=posterior)
 
 # Fig 4.1
@@ -13,9 +13,9 @@ par(op)
 
 
 # Fig 4.2
-mcmcSummary(posterior,rows=2,show=F)
+mcmcAnalysis(posterior,rows=2,show=F)
 
-mcmcSummary(posterior2,rows=2,show=F)
+mcmcAnalysis(posterior2,rows=2,show=F)
 
 # Fig 4.3
 mu=posterior2[,1]; tau=posterior2[,2]
@@ -46,12 +46,12 @@ mcmcCi(posterior2)
 
 #########################################################################
 
-posterior=gibbsnorm2(N=10010,initial=c(5.41,25),b=5.41,c=0.25,g=2.5,h=0.1,n=23,xbar=5.4848,s=0.1882)
+posterior=gibbsNormal2(N=10010,initial=c(5.41,25),b=5.41,c=0.25,g=2.5,h=0.1,n=23,xbar=5.4848,s=0.1882)
 posterior2=mcmcProcess(input=posterior,burnin=10)
 
 # Fig 4.4
-mcmcSummary(posterior,rows=2,show=F)
-mcmcSummary(posterior2,rows=2,show=F)
+mcmcAnalysis(posterior,rows=2,show=F)
+mcmcAnalysis(posterior2,rows=2,show=F)
 
 # Fig 4.5
 mu=seq(5.3,5.7,len=1000)

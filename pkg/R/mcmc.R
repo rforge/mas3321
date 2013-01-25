@@ -7,12 +7,12 @@
 #' @param bins Approximate number of bins to use for the histograms
 #' @param show If TRUE, will display numerical summaries on the R console
 #' @param plot If TRUE, will plot graphical summaries on the default graphics device
-#' @author Taken from Darren Wilkinson's package smfsb
-#' @export mcmcSummary
+#' @author A version of mcmcSummary in Darren Wilkinson's package smfsb
+#' @export mcmcAnalysis
 #' @examples
-#' posterior=gibbsnorm(N=1000,initial=c(10,0.25),priorparam=c(10,1/100,3,12),n=100,xbar=15,s=4.5)
-#' mcmcSummary(posterior,rows=2,bins=10)
-mcmcSummary=function (mat, rows = 4, lag.max = 100, bins = 30, show = TRUE, 
+#' posterior=gibbsNormal(N=1000,initial=c(10,0.25),priorparam=c(10,1/100,3,12),n=100,xbar=15,s=4.5)
+#' mcmcAnalysis(posterior,rows=2,bins=10)
+mcmcAnalysis=function (mat, rows = 4, lag.max = 100, bins = 30, show = TRUE, 
           plot = TRUE) 
 {
   d = dim(mat)

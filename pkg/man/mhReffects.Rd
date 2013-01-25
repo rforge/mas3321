@@ -48,6 +48,6 @@ data(contamination)
 n=tapply(contamination$acc,contamination$keyboard,length)
 ybar=tapply(contamination$acc,contamination$keyboard,mean)
 s=sqrt(tapply(contamination$acc,contamination$keyboard,var)*(n-1)/n)
-mcmcSummary(mhReffects(N=100,initial=c(200,2e-5,1),intau=1e-5,innu=7.9,priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s,show=TRUE),rows=3)
+mcmcAnalysis(mhReffects(N=100,initial=c(200,2e-5,1),intau=1e-5,innu=7.9,priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s,show=TRUE),rows=3)
 }
 

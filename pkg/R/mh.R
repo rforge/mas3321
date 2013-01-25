@@ -7,7 +7,7 @@
 #' @param a size of uniform innovations
 #' @param show logical. If true then acceptance rate for the proposals will be given
 #' @export metropolis
-#' @examples mcmcSummary(metropolis(100,0,1),rows=1)
+#' @examples mcmcAnalysis(metropolis(100,0,1),rows=1)
 metropolis=function(N,initial,a,show=TRUE) 
 {
   output=matrix(ncol=1,nrow=N)
@@ -42,9 +42,9 @@ metropolis=function(N,initial,a,show=TRUE)
 #' @param xbar (arithmetic) mean of random sample
 #' @param xgbar geometric mean of random sample
 #' @param show logical. If true then acceptance rate for the proposals will be given
-#' @export mwgGammars
-#' @examples mcmcSummary(mwgGammars(100,(0.62/0.4)^2,0.8,c(2,1,3,1),50,0.62,0.46),rows=2)
-mwgGammars=function(N,initial,innov,priorparam,n,xbar,xgbar,show=TRUE) 
+#' @export mwgGamma
+#' @examples mcmcAnalysis(mwgGamma(100,(0.62/0.4)^2,0.8,c(2,1,3,1),50,0.62,0.46),rows=2)
+mwgGamma=function(N,initial,innov,priorparam,n,xbar,xgbar,show=TRUE) 
 {
   output=matrix(ncol=2,nrow=N)
   colnames(output)=c("alpha","lambda")
@@ -91,7 +91,7 @@ mwgGammars=function(N,initial,innov,priorparam,n,xbar,xgbar,show=TRUE)
 #' n=tapply(contamination$acc,contamination$keyboard,length)
 #' ybar=tapply(contamination$acc,contamination$keyboard,mean)
 #' s=sqrt(tapply(contamination$acc,contamination$keyboard,var)*(n-1)/n)
-#' mcmcSummary(mhReffects(N=100,initial=c(200,2e-5,1),intau=1e-5,innu=7.9,priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s,show=TRUE),rows=3)
+#' mcmcAnalysis(mhReffects(N=100,initial=c(200,2e-5,1),intau=1e-5,innu=7.9,priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s,show=TRUE),rows=3)
 mhReffects=function(N,initial,intau,innu,priorparam,m,n,ybar,s,show=TRUE,innLogscale=FALSE) 
 {
 # log FCDs used my mhReffects  

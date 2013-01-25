@@ -20,6 +20,6 @@
   proposal
 }
 \examples{
-mcmcSummary(metropolis(100,0,1),rows=1)
+mcmcAnalysis(metropolis(100,0,1),rows=1)
 }
 

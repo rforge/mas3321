@@ -8,9 +8,9 @@
 #' @param n size of random sample
 #' @param xbar mean of random sample
 #' @param s standard deviation of random sample
-#' @export gibbsnorm
-#' @examples mcmcSummary(gibbsnorm(N=100,initial=c(10,0.25),priorparam=c(10,1/100,3,12),n=100,xbar=15,s=4.5),rows=2)
-gibbsnorm=function(N,initial,priorparam,n,xbar,s)
+#' @export gibbsNormal
+#' @examples mcmcAnalysis(gibbsNormal(N=100,initial=c(10,0.25),priorparam=c(10,1/100,3,12),n=100,xbar=15,s=4.5),rows=2)
+gibbsNormal=function(N,initial,priorparam,n,xbar,s)
 {
   b=priorparam[1];c=priorparam[2];g=priorparam[3];h=priorparam[4]
   output=matrix(ncol=2,nrow=N)
@@ -40,9 +40,9 @@ gibbsnorm=function(N,initial,priorparam,n,xbar,s)
 #' @param n size of random sample
 #' @param xbar mean of random sample
 #' @param s standard deviation of random sample
-#' @export gibbsnorm2
-#' @examples mcmcSummary(gibbsnorm2(N=100,initial=c(5.41,25),priorparam=c(5.41,0.25,2.5,0.1),n=23,xbar=5.4848,s=0.1882),rows=2)
-gibbsnorm2=function(N,initial,priorparam,n,xbar,s)
+#' @export gibbsNormal2
+#' @examples mcmcAnalysis(gibbsNormal2(N=100,initial=c(5.41,25),priorparam=c(5.41,0.25,2.5,0.1),n=23,xbar=5.4848,s=0.1882),rows=2)
+gibbsNormal2=function(N,initial,priorparam,n,xbar,s)
 {
   b=priorparam[1];c=priorparam[2];g=priorparam[3];h=priorparam[4]
   output=matrix(ncol=2,nrow=N)
@@ -76,7 +76,7 @@ gibbsnorm2=function(N,initial,priorparam,n,xbar,s)
 #' n=tapply(contamination$acc,contamination$keyboard,length)
 #' ybar=tapply(contamination$acc,contamination$keyboard,mean)
 #' s=sqrt(tapply(contamination$acc,contamination$keyboard,var)*(n-1)/n)
-#' mcmcSummary(gibbsReffects(N=100,initial=c(200,2e-5,1),priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s))
+#' mcmcAnalysis(gibbsReffects(N=100,initial=c(200,2e-5,1),priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s))
 gibbsReffects=function(N,initial,priorparam,m,n,ybar,s)
 {
   a=priorparam[1];b=priorparam[2];c=priorparam[3];d=priorparam[4];e=priorparam[5];f=priorparam[6]
