@@ -12,17 +12,17 @@ Depends:
     gplots,
     R (>= 2.10.0)
 License: GPL
-Collate:
+Collate: 
+    'cavendish.R'
+    'coagulation.R'
+    'contamination.R'
+    'crickets.R'
     'distns.R'
+    'elicitation.R'
     'fns.R'
     'gibbs.R'
     'hdi.R'
+    'hepatitis.R'
+    'malcolm.R'
     'mcmc.R'
     'mh.R'
-    'elicitation.R'
-    'contamination.R'
-    'cavendish.R'
-    'coagulation.R'
-    'malcolm.R'
-    'crickets.R'
-    'hepatitis.R'
