@@ -1,7 +1,7 @@
 Package: mas3321
 Type: Package
 Title: Bayes normal linear model and basic MCMC
-Version: 1.1
+Version: 1.0
 Date: 2012-10-10
 Author: Richard Boys
 Maintainer: Richard Boys <richard.boys@newcastle.ac.uk>
@@ -12,7 +12,7 @@ Depends:
     gplots,
     R (>= 2.10.0)
 License: GPL
-Collate: 
+Collate:
     'cavendish.R'
     'coagulation.R'
     'contamination.R'
