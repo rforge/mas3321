@@ -20,14 +20,14 @@
   2x2 matrix.}
 
   \item{p}{probability}
+
+  \item{...}{Arguments to be passed to the plot function
+  when plotting contours}
 }
 \description{
   Density (and its contours) of the bivariate t
   distribution with a degrees of freedom, mean vector b and
   covariance matrix c.
-}
-\note{
-  Something here.
 }
 \examples{
 dbvt(1, 2, 10, c(1,2), diag(1,2))

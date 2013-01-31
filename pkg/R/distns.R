@@ -74,6 +74,7 @@ rnormgamma=function(n,b,c,g,h){output=matrix(ncol=2,nrow=n);colnames(output)=c("
 
 #' @rdname dnormgamma
 #' @param p probability
+#' @param ... Arguments to be passed to the plot function when plotting contours
 #' @export NGacontour
 #' @examples 
 #' mu=seq(2,4,len=1000)
@@ -142,7 +143,6 @@ dbvnorm=function(x,y,b=c(0,0),c=diag(1,2)){
 #' @param a degrees of freedom. Must be strictly positive.
 #' @param b mean vector (2x1)
 #' @param c covariance matrix. Must be a positive definite 2x2 matrix.
-#' @note Something here.
 #' @keywords character
 #' @export dbvt
 #' @examples dbvt(1, 2, 10, c(1,2), diag(1,2))
@@ -153,6 +153,7 @@ dbvt=function(x,y,a,b,c){xs=(x-b[1])/sqrt(c[1,1])
 
 #' @rdname dbvt
 #' @param p probability
+#' @param ... Arguments to be passed to the plot function when plotting contours
 #' @export tcontour
 #' @examples 
 #' beta1=seq(-3,3,len=100)

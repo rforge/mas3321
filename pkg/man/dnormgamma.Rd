@@ -26,6 +26,9 @@
   \item{n}{sample size}
 
   \item{p}{probability}
+
+  \item{...}{Arguments to be passed to the plot function
+  when plotting contours}
 }
 \description{
   Density and random generation for the normal-gamma
