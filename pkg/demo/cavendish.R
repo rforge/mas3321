@@ -1,14 +1,13 @@
 # Cavendish data analysis
 data(cavendish)
-m=lm(earth_density~1,x=T,data=cavendish)
-betahat=m$coefficients
-XtX=t(m$x)%*%m$x
-RSS=sum(residuals(m)^2)
-b=5.41;c=matrix(0.25,ncol=1);g=2.5;h=0.1
-B=solve(c+XtX,c%*%b+XtX%*%betahat)
-C=c+XtX
-G=g+nrow(cavendish)/2
-H=h+0.5*(RSS-t(B)%*%(c+XtX)%*%B+t(b)%*%c%*%b+t(betahat)%*%XtX%*%betahat)
+b=5.41;c=0.25;g=2.5;h=0.1
+xbar=mean(cavendish$earth_denisty)
+n=length(cavendish$earth_denisty)
+s=sqrt((n-1)*var(cavendish$earth_denisty)/n)
+B=(b*c+n*xbar)/(c+n)
+C=c+n
+G=g+n/2
+H=h+c*n*(xbar-b)^2/(2*(c+n))+n*s^2/2
 
 # Fig 2.3
 mu=seq(4,7,len=1000)
