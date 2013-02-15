@@ -12,7 +12,7 @@ H=h+0.5*(RSS-t(B)%*%(c+XtX)%*%B+t(b)%*%c%*%b+t(betahat)%*%XtX%*%betahat)
 
 # Fig 2.3
 mu=seq(4,7,len=1000)
-plot(mu,dgt(mu,g,b,h/(g*c)),type="l",xlab=expression(mu),ylab="density",ylim=c(0,1))
+plot(mu,dgt(mu,2*g,b,h/(g*c)),type="l",xlab=expression(mu),ylab="density",ylim=c(0,1))
 lines(mu,dnorm(mu,5.41,0.4),lty=2)
 
 tau=seq(0,70,len=1000)
@@ -23,8 +23,8 @@ plot(sigma,dinvchi(sigma,g,h),type="l",xlab=expression(sigma),ylab="density")
 
 # Fig 2.4
 mu=seq(4,7,len=1000)
-plot(mu,dgt(mu,G,B,H/(G*C)),type="l",xlab=expression(mu),ylab="density")
-lines(mu,dt(mu,g,b,h/(g*c)),lty=2)
+plot(mu,dgt(mu,2*G,B,H/(G*C)),type="l",xlab=expression(mu),ylab="density")
+lines(mu,dt(mu,2*g,b,h/(g*c)),lty=2)
 
 tau=seq(0,70,len=1000)
 plot(tau,dgamma(tau,G,H),type="l",xlab=expression(tau),ylab="density")
