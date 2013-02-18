@@ -1,9 +1,9 @@
 # Cavendish data analysis
 data(cavendish)
 b=5.41;c=0.25;g=2.5;h=0.1
-xbar=mean(cavendish$earth_denisty)
-n=length(cavendish$earth_denisty)
-s=sqrt((n-1)*var(cavendish$earth_denisty)/n)
+xbar=mean(cavendish$earth_density)
+n=length(cavendish$earth_density)
+s=sqrt((n-1)*var(cavendish$earth_density)/n)
 B=(b*c+n*xbar)/(c+n)
 C=c+n
 G=g+n/2
