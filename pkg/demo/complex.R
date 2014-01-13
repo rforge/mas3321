@@ -30,12 +30,6 @@ mcmcCi(posterior2)
 # boxplot function
 mcmcBoxplot(posterior2[,4:13])
 
-# Fig 5.5
-heatmap.2(cor(posterior2),symm=TRUE, margins=c(6,6),Colv = NA,Rowv = NA,dendrogram = "none",symbreaks=TRUE,trace="none",col=grey(seq(0,1,0.01)))
-
-# colour version
-heatmap.2(cor(posterior2),symm=TRUE, margins=c(6,6),Colv = NA,Rowv = NA,dendrogram = "none",symbreaks=TRUE,trace="none")
-
 # timing
 system.time(gibbsReffects(N=1000000,initial=c(200,2e-5,1),priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s))
 

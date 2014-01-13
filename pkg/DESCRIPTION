@@ -9,8 +9,7 @@ Description: Package contains functions, data and examples of a Bayesian
     analysis of the normal linear model using conjugate priors and the analysis
     of simple models using non-conjugate priors
 Depends:
-    gplots (>= 2.0.0),
-    R (>= 3.0) 
+    R (>= 3.0)
 License: GPL
 Collate:
     'cavendish.R'
