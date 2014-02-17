@@ -34,8 +34,8 @@ plot(sigma,dinvchi(sigma,G,H),type="l",xlab=expression(sigma),ylab="density")
 lines(sigma,dinvchi(sigma,g,h),type="l",lty=2)
 
 # Fig 2.5
-mu=seq(4.5,6.5,len=100)
-tau=seq(0,70,len=100)
+mu=seq(4.5,6.5,len=1000)
+tau=seq(0,71,len=1000)
 NGacontour(mu,tau,b,c,g,h,lty=3)
 NGacontour(mu,tau,B,C,G,H,add=TRUE)
 
