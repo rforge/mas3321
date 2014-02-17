@@ -1,6 +1,6 @@
 \name{dnormgamma}
-\alias{dnormgamma}
 \alias{NGacontour}
+\alias{dnormgamma}
 \alias{rnormgamma}
 \title{The Normal-Gamma distribution}
 \usage{

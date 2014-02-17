@@ -87,12 +87,12 @@ NGacontour <- function (mu, tau, b, c, g, h, p=NULL,...) {
   if (length(p)==0) {
     contour(mu,tau,z,xlab=expression(mu),ylab=expression(tau),...)}
   else {
-    NGaclevels=function(p,b,c,g,h){n=1000
+    NGaclevels=function(p,b,c,g,h){n=100000
                                    tau=rgamma(n,g,h)
                                    mu=rnorm(n,b,1/sqrt(c*tau))
                                    y=dnormgamma(mu,tau,b,c,g,h)
                                    y=sort(y)
-                                   y[floor(n*(1-p))]}  
+                                   signif(y[floor(n*(1-p))],2)}  
     pdflevels=NGaclevels(p,b,c,g,h)
     contour(mu,tau,z,levels=pdflevels,xlab=expression(mu),ylab=expression(tau),...)}
 }
