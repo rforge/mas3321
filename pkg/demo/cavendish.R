@@ -23,7 +23,7 @@ plot(sigma,dinvchi(sigma,g,h),type="l",xlab=expression(sigma),ylab="density")
 # Fig 2.4
 mu=seq(4,7,len=1000)
 plot(mu,dgt(mu,2*G,B,H/(G*C)),type="l",xlab=expression(mu),ylab="density")
-lines(mu,dt(mu,2*g,b,h/(g*c)),lty=2)
+lines(mu,dgt(mu,2*g,b,h/(g*c)),lty=2)
 
 tau=seq(0,70,len=1000)
 plot(tau,dgamma(tau,G,H),type="l",xlab=expression(tau),ylab="density")
