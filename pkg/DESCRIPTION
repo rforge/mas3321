@@ -1,8 +1,8 @@
 Package: mas3321
 Type: Package
 Title: Bayes normal linear model and basic MCMC
-Version: 1.0
-Date: 2012-10-10
+Version: 1.1
+Date: 2014-2-25
 Author: Richard Boys
 Maintainer: Richard Boys <richard.boys@newcastle.ac.uk>
 Description: Package contains functions, data and examples of a Bayesian
