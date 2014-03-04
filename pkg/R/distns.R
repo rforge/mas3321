@@ -166,7 +166,7 @@ tcontour=function (x,y,a,b,c,p=NULL, ...) {
     contour(x,y,z,...)}
   else {
     pdflevels=(gamma(a/2+1)/(sqrt(det(c))*a*pi*gamma(a/2)))*(1+2*qf(p,2,a)/a)^(-a/2-1)
-    contour(x,y,z,levels=pdflevels,...)
+    contour(x,y,z,levels=signif(pdflevels,2),...)
   }
 }
 
