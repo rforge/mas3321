@@ -10,13 +10,13 @@ XtX=t(m$x)%*%m$x
 RSS=sum(residuals(m)^2)
 
 b=c(167/3,5/3)
-c=4*solve(matrix(c(36.5,-4,-4,0.5),ncol=2),diag(1,2))
+c=matrix(c(0.8889,7.1111,7.1111,64.8889),ncol=2)
 g=2
 h=4
 
 B=solve(c+XtX,c%*%b+XtX%*%betahat)
 C=c+XtX
-G=g + nrow(malcolm)/2
+G=g+nrow(malcolm)/2
 H=as.numeric(h+0.5*(RSS-t(B)%*%(c+XtX)%*%B+t(b)%*%c%*%b+t(betahat)%*%XtX%*%betahat))
 cinv=solve(c,diag(1,2))
 Cinv=solve(C,diag(1,2))
@@ -48,13 +48,13 @@ lines(sigma,dinvchi(sigma,g,h),type="l",lty=2)
 
 
 # Fig 2.9
-beta1=seq(46,65,len=100)
-beta2=seq(0.5,3,len=100)
+beta1=seq(46,65,len=1000)
+beta2=seq(0.5,3,len=1000)
 tcontour(beta1,beta2,2*g,b,(h/g)*cinv,xlab=expression(alpha),ylab=expression(beta),lty=3)
 tcontour(beta1,beta2,2*G,B,(H/G)*Cinv,add=TRUE)
 
-beta1=seq(54,57.5,len=100)
-beta2=seq(1.4,1.8,len=100)
+beta1=seq(54,57.5,len=1000)
+beta2=seq(1.4,1.8,len=1000)
 tcontour(beta1,beta2,2*g,b,(h/g)*cinv,xlab=expression(alpha),ylab=expression(beta),lty=3)
 tcontour(beta1,beta2,2*G,B,(H/G)*Cinv,add=TRUE)
 
@@ -73,13 +73,13 @@ c(qgamma(0.025,G,H),qgamma(0.975,G,H))
 c(1/sqrt(qgamma(0.975,G,H)),1/sqrt(qgamma(0.025,G,H)))
 
 # Fig 2.10
-beta1=seq(39,73,len=100)
-beta2=seq(-0.5,4,len=100)
+beta1=seq(39,73,len=1000)
+beta2=seq(-0.5,4,len=1000)
 tcontour(beta1,beta2,2*g,b,(h/g)*cinv,p=c(0.95,0.9,0.8),xlab=expression(alpha),ylab=expression(beta),lty=3)
 tcontour(beta1,beta2,2*G,B,(H/G)*Cinv,p=c(0.95,0.9,0.8),add=TRUE)
 
-beta1=seq(54,57.5,len=100)
-beta2=seq(1.39,1.8,len=100)
+beta1=seq(54,57.5,len=1000)
+beta2=seq(1.39,1.8,len=1000)
 tcontour(beta1,beta2,2*g,b,(h/g)*cinv,p=c(0.95,0.9,0.8),xlab=expression(alpha),ylab=expression(beta),lty=3)
 tcontour(beta1,beta2,2*G,B,(H/G)*Cinv,p=c(0.95,0.9,0.8),add=TRUE)
 
