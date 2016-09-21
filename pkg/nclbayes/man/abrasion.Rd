@@ -3,12 +3,18 @@
 \docType{data}
 \name{abrasion}
 \alias{abrasion}
-\title{Data on abrasion}
+\title{Data from an experiment to investigate how weight loss due to abrasion (in g/hr) of rubber
+is affected by hardness (in degrees Shore) and tensile strength (in kg/cm^2).}
 \value{
 A data frame with 30 rows and 3 variables.
 }
 \description{
-Data on abrasion
+Data from an experiment to investigate how weight loss due to abrasion (in g/hr) of rubber
+is affected by hardness (in degrees Shore) and tensile strength (in kg/cm^2).
+}
+\references{
+This data set was taken from Davies and Goldsmith, Statistical Methods in
+Research and Production, 4th edition.
 }
 \keyword{datasets}
 

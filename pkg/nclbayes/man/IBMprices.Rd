@@ -3,12 +3,15 @@
 \docType{data}
 \name{IBMprices}
 \alias{IBMprices}
-\title{Data on IBM prices}
+\title{Data consisting of 160 consecutive daily IBM common stock closing prices.}
 \value{
-A data frame with 160 rows with 1 variable.
+A list containing a variable with 160 rows, and a variable with 1 row.
 }
 \description{
-Data on IBM prices
+Data consisting of 160 consecutive daily IBM common stock closing prices.
+}
+\references{
+Box and Jenkins, Time Series Analysis, 1976.
 }
 \keyword{datasets}
 

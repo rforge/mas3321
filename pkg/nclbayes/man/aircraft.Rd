@@ -3,12 +3,18 @@
 \docType{data}
 \name{aircraft}
 \alias{aircraft}
-\title{Data on aircraft}
+\title{Data on the number of 'multi-fatality crashes' in the week following 17 known cases of
+'murder-suicide', together with an index of newspaper coverage.}
 \value{
-A data frame with 17 rows with 2 variables.
+A list containing 2 variables with 17 rows, and a variable with 1 row.
 }
 \description{
-Data on aircraft
+Data on the number of 'multi-fatality crashes' in the week following 17 known cases of
+'murder-suicide', together with an index of newspaper coverage.
+}
+\references{
+Phillips, Airplane accident fatalities increase just after newspaper
+stories about murder and suicide, Science, 201, 748-750, (1978).
 }
 \keyword{datasets}
 

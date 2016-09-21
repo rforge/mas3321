@@ -3,12 +3,16 @@
 \docType{data}
 \name{protein}
 \alias{protein}
-\title{Data on protein}
+\title{Data from an experiment to calibrate a near infrared reflectance instrument. Included is
+the protein content (\%) as determined by a standard method (y1 to y30), and measurements
+of reflectance at six different wavelengths (x1 to x6).}
 \value{
 A data frame with 24 rows and 36 variables.
 }
 \description{
-Data on protein
+Data from an experiment to calibrate a near infrared reflectance instrument. Included is
+the protein content (\%) as determined by a standard method (y1 to y30), and measurements
+of reflectance at six different wavelengths (x1 to x6).
 }
 \keyword{datasets}
 

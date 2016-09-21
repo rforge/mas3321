@@ -3,12 +3,16 @@
 \docType{data}
 \name{sideeffects}
 \alias{sideeffects}
-\title{Data on side effects}
+\title{Data showing the number of patients who were given different doses of a
+certain drug, along with the number of patients who exhibited a
+particular side effect.}
 \value{
 A data frame with 7 rows with 3 variables.
 }
 \description{
-Data on side effects
+Data showing the number of patients who were given different doses of a
+certain drug, along with the number of patients who exhibited a
+particular side effect.
 }
 \keyword{datasets}
 

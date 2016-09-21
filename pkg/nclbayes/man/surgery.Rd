@@ -3,12 +3,19 @@
 \docType{data}
 \name{surgery}
 \alias{surgery}
-\title{Data on surgery}
+\title{Data on the number of patients undergoing surgery and the number who died in hospital
+in two areas of the USA, broken down by age and sex. A group number corresponding to
+area and sex is provided, along with the midpoint of the age range (in years).}
 \value{
 A data frame with 32 rows with 4 variables.
 }
 \description{
-Data on surgery
+Data on the number of patients undergoing surgery and the number who died in hospital
+in two areas of the USA, broken down by age and sex. A group number corresponding to
+area and sex is provided, along with the midpoint of the age range (in years).
+}
+\references{
+Mosteller and Tukey, Data Analysis and Regression, 1977.
 }
 \keyword{datasets}
 

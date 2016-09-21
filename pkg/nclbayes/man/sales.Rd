@@ -3,12 +3,14 @@
 \docType{data}
 \name{sales}
 \alias{sales}
-\title{Data on sales}
+\title{Data on the number of orders received by a small company for one of its products over time.
+The data consists of 30 sets of 100 consecutive weeks.}
 \value{
-A data frame with 100 rows and 30 variables.
+A list containing 30 variables with 100 rows, and a variable with 1 row.
 }
 \description{
-Data on sales
+Data on the number of orders received by a small company for one of its products over time.
+The data consists of 30 sets of 100 consecutive weeks.
 }
 \keyword{datasets}
 

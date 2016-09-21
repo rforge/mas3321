@@ -3,12 +3,21 @@
 \docType{data}
 \name{babies}
 \alias{babies}
-\title{Data on babies}
+\title{Data showing the outcomes from a set of babies, categorised as 'Full term' or
+'Premature', and 'alive at end of year 1' or 'died in year 1'.
+The mothers are included, categorised as either 'Young' or 'Older' and 'Smokers'
+or 'Non-smokers'.}
 \value{
-A list with 1 matrix and 3 variables.
+A list containing a 4x4 matrix and 3 variables with 4 rows.
 }
 \description{
-Data on babies
+Data showing the outcomes from a set of babies, categorised as 'Full term' or
+'Premature', and 'alive at end of year 1' or 'died in year 1'.
+The mothers are included, categorised as either 'Young' or 'Older' and 'Smokers'
+or 'Non-smokers'.
+}
+\references{
+Freeman, Applied Categorical Data Analysis, 1987.
 }
 \keyword{datasets}
 
