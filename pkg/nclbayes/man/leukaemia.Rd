@@ -3,12 +3,18 @@
 \docType{data}
 \name{leukaemia}
 \alias{leukaemia}
-\title{Data on leukaemia}
+\title{Data on 33 leukaemia patients, classified by AG Group (1: AG positive, 2: AG negative).
+For each patient white blood cell count and survival time (in weeks) is also provided.}
 \value{
-A data frame with 33 rows with 3 variables.
+A list containing 2 variables with 33 rows, and a variable with 1 row.
 }
 \description{
-Data on leukaemia
+Data on 33 leukaemia patients, classified by AG Group (1: AG positive, 2: AG negative).
+For each patient white blood cell count and survival time (in weeks) is also provided.
+}
+\references{
+Feigl and Zelen, Estimation of exponential survival probabilities with
+concomitant information, Biometrics, 21, 826-38 (1965).
 }
 \keyword{datasets}
 

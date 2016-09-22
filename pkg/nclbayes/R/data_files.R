@@ -68,8 +68,10 @@ NULL
 #' @keywords datasets
 NULL
 
-#' Data on lungs
-#' @name lung
+#' Data on 50 patients suffering from a chronic lung disease. Included is 30 measurements
+#' of lung function (y1 to y30), along with patient age (in years), sex (0: female, 1:male),
+#' and smoking status (0:non-smoker, 1:smoker).
+#' @name lungs
 #' @docType data
 #' @return A data frame with 50 rows and 33 variables.
 #' @keywords datasets
@@ -120,10 +122,13 @@ NULL
 #' @keywords datasets
 NULL
 
-#' Data on leukaemia
+#' Data on 33 leukaemia patients, classified by AG Group (1: AG positive, 2: AG negative).
+#' For each patient white blood cell count and survival time (in weeks) is also provided.
 #' @name leukaemia
 #' @docType data
-#' @return A data frame with 33 rows with 3 variables.
+#' @references Feigl and Zelen, Estimation of exponential survival probabilities with
+#' concomitant information, Biometrics, 21, 826-38 (1965).
+#' @return A list containing 2 variables with 33 rows, and a variable with 1 row.
 #' @keywords datasets
 NULL
 
