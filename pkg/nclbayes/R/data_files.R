@@ -143,9 +143,12 @@ NULL
 #' @keywords datasets
 NULL
 
-#' Data on rats
+#' Data on the weights of a set of thirty young rats, measured over time (in days).
 #' @name rats
 #' @docType data
+#' @references Gelfand, Hills, Racine-Poon, and Smith, Illustration of Bayesian inference
+#'  in normal data models using Gibbs sampling, Journal of the American Statistical
+#'  Association, 85, 972-85, (1990).
 #' @return A list with 1 matrix and 1 variable.
 #' @keywords datasets
 NULL
