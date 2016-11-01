@@ -162,7 +162,7 @@ NULL
 #' @keywords datasets
 NULL
 
-#'Data on the number of 'multi-fatality crashes' in the week following 17 known cases of
+#' Data on the number of 'multi-fatality crashes' in the week following 17 known cases of
 #''murder-suicide', together with an index of newspaper coverage.
 #' @name aircraft
 #' @references Phillips, Airplane accident fatalities increase just after newspaper
@@ -172,7 +172,17 @@ NULL
 #' @keywords datasets
 NULL
 
-
+#' A dataset containing the time of birth (hh:mm), sex, and birth weight (in grams) for each
+#' of 44 babies born in one 24-hour period at a Brisbane, Australia hospital.
+#' Also included is the number of minutes since midnight for each birth.
+#'
+#' @name births
+#' @docType data
+#' @source \url{http://ww2.amstat.org/publications/jse/secure/v7n3/datasets.dunn.cfm}
+#' @return A list containing 4 variables with 44 rows, and a variable with 1 row.
+#' @keywords datasets
+#'
+NULL
 
 
 
