@@ -10,7 +10,7 @@ License: GPL-2 | GPL-3
 RoxygenNote: 5.0.1
 LazyData: TRUE
 NeedsCompilation: no
-Packaged: 2016-11-01 16:36:53 UTC; ngs54
+Packaged: 2016-11-02 13:58:58 UTC; ngs54
 Author: R. J. Boys [aut, cre],
   G. W. Stagg [ctb]
 Maintainer: R. J. Boys <richard.boys@ncl.ac.uk>
