@@ -184,6 +184,32 @@ NULL
 #'
 NULL
 
+#' A dataset containing the results of a study of the tonsil size (Normal, Large
+#' or Very Large) of 1398 school children, along with whether or not they were
+#' carriers of the bacterium Streptococcus pyogenes.
+#'
+#' @name tonsils
+#' @docType data
+#' @source W. J. Krzanowski, Principles of Multivariate Analysis, Oxford: Oxford
+#' University Press, 1988.
+#' @return A list containing 1 variable with 6 rows.
+#' @keywords datasets
+#'
+NULL
 
-
-
+#' A random sample of granite gravestones was taken from a cemetery in Savannah,
+#' a city along the southeast coast of the USA (coastal) and a cemetery in
+#' Macon, Georgia, a town located 170 miles inland from Savannah (inland).
+#' The dataset consists of the age of each gravestone (the difference between
+#' the current year and the year the person died), the depth of degradation (in
+#' mm) as determined by the lettering alteration method, and the location of the
+#' gravestone where the value of location is 0 for coastal and 1 for inland.
+#'
+#' @name granite
+#' @docType data
+#' @source T.C. Meierdin, Marble weathering rates: a transect of the United States.
+#' Physical Geography, 2, pp. 1-18, (1981)
+#' @return A list containing 3 variables with 25 rows, and a variable with 1 row.
+#' @keywords datasets
+#'
+NULL
