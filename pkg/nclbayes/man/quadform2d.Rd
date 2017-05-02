@@ -21,4 +21,3 @@ Calculates a quadratic form for 2-d vectors
 \examples{
 quadform2d(1,1,c(0,0),diag(1,2))
 }
-

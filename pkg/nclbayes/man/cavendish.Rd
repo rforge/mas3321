@@ -13,4 +13,3 @@ Data collected by the 18th century physicist Henry Cavendish, who made 23 experi
 determinations of the earth's density (in g per cubic cm)
 }
 \keyword{datasets}
-

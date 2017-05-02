@@ -2,15 +2,15 @@ Package: nclbayes
 Type: Package
 Title: Functions, Demos and Examples of Bayesian Analysis and Basic
         MCMC
-Version: 0.3.7
+Version: 0.3.8
 Authors@R: c(person("R. J.",  "Boys", email = "richard.boys@ncl.ac.uk", role = c("aut","cre")),
              person("G. W.", "Stagg", email = "george.stagg@ncl.ac.uk", role = "ctb"))
 Description: An R package containing functions, data and examples of Bayesian analysis for use with NCL Bayes Courses.
 License: GPL-2 | GPL-3
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 LazyData: TRUE
 NeedsCompilation: no
-Packaged: 2017-02-16 14:02:09 UTC; ngs54
+Packaged: 2017-05-02 10:18:30 UTC; ngs54
 Author: R. J. Boys [aut, cre],
   G. W. Stagg [ctb]
 Maintainer: R. J. Boys <richard.boys@ncl.ac.uk>

@@ -35,4 +35,3 @@ dnorminvchi(1, 1/sqrt(2), 1, 2, 5, 3)
 rnorminvchi(1, 1, 2, 5, 3)
 }
 \keyword{character}
-

@@ -30,4 +30,3 @@ mcmcAnalysis(posterior,rows=2,bins=10)
 \references{
 A version of mcmcSummary in Darren Wilkinson's package smfsb.
 }
-

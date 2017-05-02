@@ -42,4 +42,3 @@ qgt(0.95, 10, 2, 2)
 rgt(1, 10, 2, 2)
 }
 \keyword{character}
-

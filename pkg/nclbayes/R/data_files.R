@@ -213,3 +213,49 @@ NULL
 #' @keywords datasets
 #'
 NULL
+
+#' The number of spruce moths found in traps after 48 hours by location
+#' of trap in tree (top branches, middle branches, lower branches, ground) and type
+#' of lure in the trap (scent, sugar, chemical).
+#' @name moths
+#' @docType data
+#' @return A list containing 3 variables with 60 rows, and a variable with 1 row.
+#' @keywords datasets
+NULL
+
+#' The prices of 75cl bottles of Barolo wines in July 2010 from the website
+#' of a Italian wine reseller. The price does not include the delivery charge.
+#' @name barolo
+#' @docType data
+#' @return A list containing a variable with 103 rows, and a variable with 1 row.
+#' @keywords datasets
+NULL
+
+#' The number of roots produced by 270 micropropagated shoots of the
+#' apple cultivar Trajan. During the rooting period, all shoots
+#' were maintained under identical conditions but the shoots themselves
+#' were cultured on media containing different concentrations of
+#' cytokinin BAP, in growth cabinets with an 8 or 16 hour photoperiod.
+#' Thus each experimental condition is decribed by two factors: BAP
+#' concentration (2.2, 4.4, 8.8 and 17.6 $\\mu M$) and photoperiod (8
+#' and 16 hours).
+#' @name shoots
+#' @docType data
+#' @return A list containing 3 variables with 270 rows.
+#' @keywords datasets
+NULL
+
+#' The breaking strengths of 63 glass fibres of length 1.5cm.
+#' @name glassfibre
+#' @docType data
+#' @return A list containing a variable with 63 rows, and a variable with 1 row.
+#' @keywords datasets
+NULL
+
+#' The chlorobenzene exposure concentrations (15 min TWAs) in ppm for a
+#' chemical worker during a full workshift for 30 consecutive days.
+#' @name exposure
+#' @docType data
+#' @return A list containing a variable with 31 rows, and a variable with 1 row.
+#' @keywords datasets
+NULL

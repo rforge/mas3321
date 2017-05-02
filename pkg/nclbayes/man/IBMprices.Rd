@@ -14,4 +14,3 @@ Data consisting of 160 consecutive daily IBM common stock closing prices.
 Box and Jenkins, Time Series Analysis, 1976.
 }
 \keyword{datasets}
-

@@ -16,4 +16,3 @@ mcmcBoxplot(input, start = 1, end = NULL)
 \description{
 Box plots from MCMC output
 }
-

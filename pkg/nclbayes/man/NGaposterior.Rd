@@ -23,4 +23,3 @@ and using a NGa prior distribution
 \examples{
 NGaposterior(c(0,1,1,1),10,1,1)
 }
-

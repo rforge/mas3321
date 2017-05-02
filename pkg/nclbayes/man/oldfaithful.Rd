@@ -17,4 +17,3 @@ Azzalini and Bowman, A look at some data on the Old Faithful geyser,
 Journal of the Royal Statistical Society, Series C, 39, 357-366, (1990).
 }
 \keyword{datasets}
-

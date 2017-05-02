@@ -19,4 +19,3 @@ or Very Large) of 1398 school children, along with whether or not they were
 carriers of the bacterium Streptococcus pyogenes.
 }
 \keyword{datasets}
-

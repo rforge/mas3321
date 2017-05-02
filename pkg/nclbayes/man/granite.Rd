@@ -27,4 +27,3 @@ mm) as determined by the lettering alteration method, and the location of the
 gravestone where the value of location is 0 for coastal and 1 for inland.
 }
 \keyword{datasets}
-

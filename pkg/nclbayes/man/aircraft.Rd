@@ -17,4 +17,3 @@ Phillips, Airplane accident fatalities increase just after newspaper
 stories about murder and suicide, Science, 201, 748-750, (1978).
 }
 \keyword{datasets}
-

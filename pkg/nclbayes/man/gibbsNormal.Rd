@@ -27,4 +27,3 @@ normal distribution based on a random sample and a semi-conjugate prior by using
 mcmcAnalysis(gibbsNormal(N=100,initial=c(10,0.25),
  priorparam=c(10,1/100,3,12),n=100,xbar=15,s=4.5),rows=2)
 }
-

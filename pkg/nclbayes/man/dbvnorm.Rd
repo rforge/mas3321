@@ -22,4 +22,3 @@ Density of the bivariate normal distribution with mean vector b and covariance m
 dbvnorm(1, 2, c(1,2), diag(1,2))
 }
 \keyword{character}
-

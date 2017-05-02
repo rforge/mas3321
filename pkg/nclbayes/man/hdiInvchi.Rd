@@ -23,4 +23,3 @@ The highest density interval (HDI) for a Inv-Chi(a,b) distribution
 hdiInvchi(0.9, 2, 2)
 }
 \keyword{character}
-

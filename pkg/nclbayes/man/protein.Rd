@@ -15,4 +15,3 @@ the protein content (\%) as determined by a standard method (y1 to y30), and mea
 of reflectance at six different wavelengths (x1 to x6).
 }
 \keyword{datasets}
-

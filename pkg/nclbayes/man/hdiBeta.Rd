@@ -23,4 +23,3 @@ The highest density interval (HDI) for a Beta(a,b) distribution
 hdiBeta(0.9, 2, 2)
 }
 \keyword{character}
-

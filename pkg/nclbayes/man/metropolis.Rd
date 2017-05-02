@@ -22,4 +22,3 @@ using a U(-a,a) random walk proposal
 \examples{
 mcmcAnalysis(metropolis(100,0,1),rows=1)
 }
-

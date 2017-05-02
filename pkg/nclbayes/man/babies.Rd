@@ -20,4 +20,3 @@ or 'Non-smokers'.
 Freeman, Applied Categorical Data Analysis, 1987.
 }
 \keyword{datasets}
-

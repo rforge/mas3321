@@ -17,4 +17,3 @@ Feigl and Zelen, Estimation of exponential survival probabilities with
 concomitant information, Biometrics, 21, 826-38 (1965).
 }
 \keyword{datasets}
-

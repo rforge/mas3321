@@ -24,4 +24,3 @@ value
 Function used in the elicitation of normal-gamma prior distribution by using quantiles for mu and tau
 }
 \keyword{character}
-

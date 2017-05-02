@@ -14,4 +14,3 @@ mcmcCi(input, level = 0.95)
 \description{
 Equi-tailed confidence intervals from MCMC output
 }
-

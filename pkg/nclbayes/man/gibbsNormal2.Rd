@@ -28,4 +28,3 @@ by using a Gibbs sampler.
 mcmcAnalysis(gibbsNormal2(N=100,initial=c(5.41,25),
  priorparam=c(5.41,0.25,2.5,0.1),n=23,xbar=5.4848,s=0.1882),rows=2)
 }
-

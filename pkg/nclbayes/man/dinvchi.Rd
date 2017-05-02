@@ -40,4 +40,3 @@ qinvchi(0.95, 2, 2)
 rinvchi(1, 2, 2)
 }
 \keyword{character}
-

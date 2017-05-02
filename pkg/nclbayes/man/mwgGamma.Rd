@@ -31,4 +31,3 @@ within Gibbs algorithm and a normal random walk proposal for the index parameter
 \examples{
 mcmcAnalysis(mwgGamma(100,(0.62/0.4)^2,0.8,c(2,1,3,1),50,0.62,0.46),rows=2)
 }
-

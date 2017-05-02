@@ -33,4 +33,3 @@ s=sqrt(tapply(contamination$acc,contamination$keyboard,var)*(n-1)/n)
 mcmcAnalysis(gibbsReffects(N=100,initial=c(200,2e-5,1),
  priorparam=c(200,0.1,0.1,0.1,0.1,0.1),m=10,n=n,ybar=ybar,s=s))
 }
-

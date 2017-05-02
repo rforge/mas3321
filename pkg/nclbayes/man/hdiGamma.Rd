@@ -23,4 +23,3 @@ The highest density interval (HDI) for a Gamma(a,b) distribution
 hdiGamma(0.9, 2, 2)
 }
 \keyword{character}
-

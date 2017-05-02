@@ -15,4 +15,3 @@ The data includes the outside temperature (in degrees C), and the presence of in
 (z=1: no insulation, z=2: insulation present).
 }
 \keyword{datasets}
-

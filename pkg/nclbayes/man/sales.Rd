@@ -13,4 +13,3 @@ Data on the number of orders received by a small company for one of its products
 The data consists of 30 sets of 100 consecutive weeks.
 }
 \keyword{datasets}
-

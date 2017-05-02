@@ -35,4 +35,3 @@ beta2=seq(-3,3,len=100)
 tcontour(beta1,beta2,10,c(0,0),matrix(c(1,0.8,0.8,1),ncol=2))
 }
 \keyword{character}
-

@@ -16,4 +16,3 @@ mcmcProcess(input, burnin = 1000, thin = 1)
 \description{
 Function chops off burnin iterations and then thins the output by taking every thin iterates.
 }
-

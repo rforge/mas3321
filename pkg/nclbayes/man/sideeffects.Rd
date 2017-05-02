@@ -15,4 +15,3 @@ certain drug, along with the number of patients who exhibited a
 particular side effect.
 }
 \keyword{datasets}
-

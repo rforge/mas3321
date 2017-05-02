@@ -12,4 +12,3 @@ demoCommands(demo)
 \description{
 Launches an editor containing the commands in a demo
 }
-

@@ -36,6 +36,6 @@ muq1=qgt(0.05,2*g,b,h/(g*c));muq2=qgt(0.95,2*g,b,h/(g*c))
 tauq1=qgamma(0.05,g,h);tauq2=qgamma(0.95,g,h)
 #The following function determines the original values of b, c, g and h
 elicitNGa(0.05,muq1,0.95,muq2,0.05,tauq1,0.95,tauq2)
+elicitNGa(muquantile1=-1,muquantile2=1,tauquantile1=0.1,tauquantile2=1.1)
 }
 \keyword{character}
-

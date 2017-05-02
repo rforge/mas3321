@@ -15,4 +15,3 @@ of lung function (y1 to y30), along with patient age (in years), sex (0: female,
 and smoking status (0:non-smoker, 1:smoker).
 }
 \keyword{datasets}
-

@@ -17,4 +17,3 @@ This data set was taken from Davies and Goldsmith, Statistical Methods in
 Research and Production, 4th edition.
 }
 \keyword{datasets}
-

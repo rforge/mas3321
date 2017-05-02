@@ -18,4 +18,3 @@ area and sex is provided, along with the midpoint of the age range (in years).
 Mosteller and Tukey, Data Analysis and Regression, 1977.
 }
 \keyword{datasets}
-

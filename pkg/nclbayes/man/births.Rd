@@ -18,4 +18,3 @@ of 44 babies born in one 24-hour period at a Brisbane, Australia hospital.
 Also included is the number of minutes since midnight for each birth.
 }
 \keyword{datasets}
-

@@ -16,4 +16,3 @@ Gelfand, Hills, Racine-Poon, and Smith, Illustration of Bayesian inference
  Association, 85, 972-85, (1990).
 }
 \keyword{datasets}
-

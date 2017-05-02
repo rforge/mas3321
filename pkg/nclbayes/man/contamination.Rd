@@ -20,4 +20,3 @@ available in the computer laboratory.
 This data set was taken from an article in Microbiologist, June 2007.
 }
 \keyword{datasets}
-

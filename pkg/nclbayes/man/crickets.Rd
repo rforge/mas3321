@@ -16,4 +16,3 @@ temperatures.
 Data collected by George W. Pierce in 1948.
 }
 \keyword{datasets}
-

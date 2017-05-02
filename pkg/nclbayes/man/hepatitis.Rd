@@ -13,4 +13,3 @@ Data on the logarithm of ornithine carbonyltransferase (a liver enzyme) in a ran
 sample of patients suffering from acute viral hepatitis.
 }
 \keyword{datasets}
-
