@@ -1,7 +1,7 @@
 # analysis of blood coagulation times
 data(coagulation)
 
-m=lm(coag~diet-1,x=T,data=coagulation)
+m=lm(coag~factor(diet)-1,x=T,data=coagulation)
 betahat=m$coefficients
 XtX=t(m$x)%*%m$x
 RSS=sum(residuals(m)^2)
