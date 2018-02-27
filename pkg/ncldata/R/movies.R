@@ -8,14 +8,10 @@
 #' Movies were selected for inclusion if they were marked as "not adult",
 #' and had at least 20000 rating votes.
 #'
-#' The file generateMovies.R demonstates how the data was constructed.
-#' The contents of generateMovies.R is not designed for teaching purposes,
-#' but instead as documentation for future updating of the dataset.
-#'
 #' @name movies
 #' @docType data
 #' @usage data(movies)
-#' @return A data frame with 5000 rows and 24 variables.
+#' @return A data frame with 4988 rows and 23 variables.
 #' @references Information courtesy of IMDb (http://www.imdb.com). IMDb data files are publically available at https://datasets.imdbws.com/
 #' @note The data set contains the following fields:
 #' \describe{

@@ -2,7 +2,7 @@ Package: ncldata
 Type: Package
 Title: NCL example data for use with MAS modules
 Version: 1.0
-Author: George Stagg
+Author: George Stagg <george.stagg@newcastle.ac.uk>
         Colin Gillespie
 Maintainer: George Stagg <george.stagg@newcastle.ac.uk>
 Description: Example data sets for use with MAS modules in the School of Mathematics, Statistics and Physics at Newcastle University.
