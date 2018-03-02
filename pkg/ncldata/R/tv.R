@@ -88,3 +88,8 @@
 # tv$SciFi = as.logical(tv$SciFi)
 # tv$Short = as.logical(tv$Short)
 # tv$Thriller = as.logical(tv$Thriller)
+#
+#for (i in unique(tv$Title[which(duplicated(tv$Title))])){
+#  tv$Title[which(tv$Title==i)] = paste(tv$Title[which(tv$Title==i)]," (",as.roman(1:length(which(tv$Title==i))), ")",sep="")
+#}
+

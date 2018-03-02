@@ -130,3 +130,7 @@
 #  movies$SciFi = as.logical(movies$SciFi)
 #  movies$Short = as.logical(movies$Short)
 #  movies$Thriller = as.logical(movies$Thriller)
+#
+#for (i in unique(movies$Title[which(duplicated(movies$Title))])){
+#  movies$Title[which(movies$Title==i)] = paste(movies$Title[which(movies$Title==i)]," (",as.roman(1:length(which(movies$Title==i))), ")",sep="")
+#}

@@ -1,7 +1,7 @@
 Package: ncldata
 Type: Package
 Title: NCL example data for use with MAS modules
-Version: 1.1
+Version: 1.2
 Author: George Stagg <george.stagg@newcastle.ac.uk>
         Colin Gillespie
 Maintainer: George Stagg <george.stagg@newcastle.ac.uk>
