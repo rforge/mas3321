@@ -79,10 +79,10 @@ NULL
 
 #' Data from an experiment to calibrate a near infrared reflectance instrument. Included is
 #' the protein content (\%) as determined by a standard method (y1 to y30), and measurements
-#' of reflectance at six different wavelengths (x1 to x6).
+#' of reflectance at three different wavelengths (x1 to x3).
 #' @name protein
 #' @docType data
-#' @return A data frame with 24 rows and 36 variables.
+#' @return A data frame with 24 rows and 33 variables.
 #' @keywords datasets
 NULL
 

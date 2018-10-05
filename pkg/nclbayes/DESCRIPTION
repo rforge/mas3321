@@ -2,7 +2,7 @@ Package: nclbayes
 Type: Package
 Title: Functions, Demos and Examples of Bayesian Analysis and Basic
         MCMC
-Version: 0.3.9
+Version: 0.3.10
 Authors@R: c(person("R. J.",  "Boys", email = "richard.boys@ncl.ac.uk", role = c("aut","cre")),
              person("G. W.", "Stagg", email = "george.stagg@ncl.ac.uk", role = "ctb"))
 Description: An R package containing functions, data and examples of Bayesian analysis for use with NCL Bayes Courses.
